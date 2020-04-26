@@ -6,7 +6,7 @@ This is a SensorPush API client for .NET Core built with the Swagger definition 
 The package comes with a minimal class, SensorPushClient, extending the generated API class, mainly for easy authentication. It's just a quick way to get started – use it if you want.
 
 ## Before you get started
-Login to https://dashboard.sensorpush.com/ and accept terms and conditions.
+You need to accept terms and conditions at https://dashboard.sensorpush.com/ before you can use the API.
 
 ## Code example
     // Create client
