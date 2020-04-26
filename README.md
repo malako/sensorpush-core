@@ -2,7 +2,7 @@
 SensorPush API client for .NET Core
 
 ## What? Why?
-This is a SensorPush API client for .NET Core built with the Swagger definition for SensorPush API v1. A few changes has been made to the generated code, mainly correcting datatypes and illegal type conversions.
+This is a SensorPush API client for .NET Core built with the Swagger definition for SensorPush API v1. A few changes have been made to the generated code, mainly correcting datatypes and illegal type conversions.
 The package comes with a minimal class, SensorPushClient, extending the generated API class, mainly for easy authentication. It's just a quick way to get started – use it if you want.
 
 ## Before you get started
