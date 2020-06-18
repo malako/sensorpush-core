@@ -23,3 +23,6 @@ You need to accept terms and conditions at https://dashboard.sensorpush.com/ bef
 
 # API documentation
 https://www.sensorpush.com/api/docs
+
+# License
+MIT License
