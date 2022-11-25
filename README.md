@@ -8,7 +8,7 @@ The package comes with a minimal class, SensorPushClient, extending the generate
 ## Before you get started
 You need to accept terms and conditions at https://dashboard.sensorpush.com/ before you can use the API.
 
-## Code example
+## Code examples
     // Create client
     var client = new SensorPushClient("your@email.com", "password");
 
@@ -19,7 +19,7 @@ You need to accept terms and conditions at https://dashboard.sensorpush.com/ bef
     client.Sensors().ToList().ForEach((sensor) => Console.WriteLine(JsonConvert.SerializeObject(sensor)));
 
     // Get some data samples
-    Console.WriteLine(client.Samples(new SamplesRequest(limit: 60)));
+    Console.WriteLine(JsonConvert.SerializeObject(client.Samples(new SamplesRequest(limit: 60))));
 
 # API documentation
 https://www.sensorpush.com/api/docs
